@@ -116,6 +116,14 @@ body {
     display: block;
     transition: all .5s ease;
 }
+footer {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+       
+}
 
 @media (max-width: 1024px) {
     #container {
@@ -186,4 +194,10 @@ body {
     #button button {
         height: 35px;
     }
+    
 }
+@media (max-width: 768px) {
+    footer {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
